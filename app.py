@@ -4,7 +4,7 @@ from time import time
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyA55SoWZ5IcBNqbJrbUHbVLOKrzHERzesg") 
+genai.configure(api_key="Your API") 
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
 active_chats = {}
